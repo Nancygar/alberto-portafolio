@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="default.css" />
+    <title>Alberto Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="main-container">
+        <div class="greetin-wrapper">
+          <h1 class="primary-heading">Hi, I'm Alberto</h1>
+        </div>
+
+        <div class="intro-wrapper">
+          <nav class="nav-wrapper">
+            <div class="control-buttons">
+              <div class="orange"></div>
+              <div class="yellow"></div>
+              <div class="green"></div>
+            </div>
+            <a class="contact">Contact</a>
+          </nav>
+          <div class="left-col">
+            <img
+              class="profile-img"
+              src="images/my-image.png"
+              alt="Photo of Alberto"
+            />
+            <h5 class="quinary-heading">Personalize theme</h5>
+            <div class="theme-options-wrapper">
+              <div class="light-mode"></div>
+              <div class="blue-mode"></div>
+              <div class="green-mode"></div>
+              <div class="purple-mode"></div>
+            </div>
+            <p class="settings-paragraph">
+              <span>Theme settings will be saved for</span>
+              <span>your next visit</span>
+            </p>
+          </div>
+          <div class="right-col">
+            <div class="description-box-shadow">
+              <div class="description-box">
+                <h3 class="tertiary-heading">What I do</h3>
+                <p>
+                  I was a lead developer in a past life, now I enjoy teaching
+                  courses.
+                </p>
+                <div class="circle top-left"></div>
+                <div class="circle top-right"></div>
+                <div class="circle bottom-left"></div>
+                <div class="circle bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About SECTION -->
+      <section class="about-section">
+        <div class="main-container">
+          <div class="about-wrapper">
+            <div class="about-me">
+              <div class="more-about-me">
+                <h4 class="quaternary-heading">More about me</h4>
+                <p>
+                  I build projects just to tickle my brain and love teaching
+                  others how they are made.
+                </p>
+                <p>
+                  While I keep busy teaching courses, I still take intervies in
+                  search of a great team &amp; projects that interest me.
+                </p>
+              </div>
+              <div class="top-expertise">
+                <h4 class="quaternary-heading">Top expertise</h4>
+                <p>
+                  <span
+                    >Full stack developer with primary focus on Django +
+                    React:</span
+                  >
+                  <a href="#">Download Resume</a>
+                </p>
+                <div class="grid-skills">
+                  <div class="skill">Python</div>
+                  <div class="skill">Django</div>
+                  <div class="skill">JavaScript</div>
+                  <div class="skill">React</div>
+                  <div class="skill">Postgres</div>
+                  <div class="skill">Google Maps Api</div>
+                  <div class="skill">JS Charts</div>
+                  <div class="skill">AWS (RDS/S3)</div>
+                  <div class="skill">Heroku</div>
+                  <div class="skill">HTML/CSS</div>
+                </div>
+              </div>
+            </div>
+            <div class="find-me">
+              <img
+                class="facebook-img"
+                src="images/facebook-page.png"
+                alt="Alberto's Facebook Page"
+              />
+              <h4 class="quaternary-heading">
+                Find me on Facebook &amp; Twitter
+              </h4>
+              <div class="contact-links">
+                <a href="#">Facebook: @albertogarcialeal</a>
+                <a href="#">Twitter: @albertogarcialeal</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects SECTION -->
+      <section class="projects-section">
+        <div class="main-container">
+          <h4 class="quaternary-heading">Some of my past projects</h4>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="card-header">
+                <img src="images/netflix.png" alt="" />
+              </div>
+              <div class="card-body">
+                <h6 class="senary-heading">Netflix Clone</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur animi laudantium error aliquam et quidem?
+                </p>
+                <a href="#">Live preview</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-header">
+                <img src="images/natours.png" alt="" />
+              </div>
+              <div class="card-body">
+                <h6 class="senary-heading">Natours Project</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur animi laudantium error aliquam et quidem?
+                </p>
+                <a href="#">Live preview</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-header">
+                <img src="images/omnifood.png" alt="" />
+              </div>
+              <div class="card-body">
+                <h6 class="senary-heading">Omnifood Desktop</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit veniam fugit laborum quam, porro nemo!
+                </p>
+                <a href="#">Live preview</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact SECTION -->
+      <section class="contact-section">
+        <div class="main-container d-flex">
+          <div class="contact-wrapper">
+            <h4 class="quaternary-heading">Get in touch</h4>
+            <form action="" class="contact-form">
+              <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="input-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
